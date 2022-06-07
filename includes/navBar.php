@@ -1,9 +1,7 @@
 
     <nav class="navbar navbar-default"> <!--Essayer navbar-inverse navbar-default-->
 
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"> GSB Company</a>
-        </div>
+        
         <ul class="nav navbar-nav">
           <li> <a><img  src="img/gsb1.png" class="img-rounded" alt="LOGO GSB" width="45" height="20"/></a> </li>
           <li class="<?=$_SERVER['PHP_SELF']==='/accueil.php'?'active':''?>"><a href="accueil.php">Home</a></li>

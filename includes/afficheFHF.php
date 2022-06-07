@@ -10,8 +10,8 @@ if(isset($_GET['idLFHF']))
         $oLigneFHFs->deleteFHF($_GET['idLFHF']);
         /*envoi un en-tête en appelant l'url et en demandant un rafraichissement de la page à 0 seconde
 		L'url est à adapter en fonction de la votre */
-        echo '<meta http-equiv="refresh" content="0'
-        . ';http://gsbci4.local/saisirFicheFrais.php">'; // 0 est le temps de rafraichissement
+        /*echo '<meta http-equiv="refresh" content="0'
+        . ';http://gsbci4.local/saisirFicheFrais.php">';*/ // 0 est le temps de rafraichissement
         
         //header('location:saisirFicheFrais.php'); 
         

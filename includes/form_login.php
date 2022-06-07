@@ -31,7 +31,7 @@
 </header>
 
 <?php
-            require_once 'navBar.php';
+            //require_once 'navBar.php';
 ?>
 
 <form  class="form-horizontal" role='form' method = "POST" action="<?=$formAction?>">

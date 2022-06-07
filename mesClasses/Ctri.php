@@ -14,6 +14,7 @@ class Ctri {
             "è"=>"e",
             "ë"=>"e",
             "É"=>"e",
+            "ê"=>"e",
             ); 
         
         $estTrie=false; 

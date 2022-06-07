@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
-<?php session_start(); ?>
+<?php 
+
+session_start(); ?>
 <html>
     <?php require_once 'includes/head.php';?>
     
